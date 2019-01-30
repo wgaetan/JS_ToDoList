@@ -4,29 +4,65 @@ html {
 }
 
 body {
-    max-width: 500px;
-    margin: 0 auto;
+    width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
-input {
+.inputBar {
+    display: flex;
+    font-size: 40px;
+}
+
+#date {
+    width: 250px;
+    font-size: 0.5em;
+}
+
+#time {
+    font-size: 0.5em;
+    width: 150px;
+}
+
+#input {
+    font-size: 1em;
     text-align: center;
-    padding-top: 30px;
     width: 500px;
     height: 60px;
-    font-size: 40px;
     border: 0;
 }
 
-input:focus {
-    outline: none;
-}
 
+ul {
+    padding: 0;
+    text-align: center;
+}
 li {
     overflow-wrap: break-word;
     text-align: left;
-    font-size: 40px;
+    font-size: 2em;
     list-style: none;
     margin: 0;
+}
+
+.task div{
+    display: inline-block;
+}
+
+.task:hover {
+    background-color: grey;
+}
+
+.taskDate {
+    width: 250px;
+}
+
+.taskTime {
+    width: 150px;
+}
+
+.taskText {
+    width: 250px;
 }
 
 li:hover {
